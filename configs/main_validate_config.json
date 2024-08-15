@@ -1,0 +1,23 @@
+{
+    "model_path": "/home/ist-sim/burak/v2/model_saved_output_figures/test_24.06/ISAAC_COMBINED_test_1.0_20240627_1536/TRAINING_ISAAC_COMBINED/model_at_2_epoch.pth",
+    "dataset": {
+        "mask_flow_path": "/home/ist-sim/burak/ISAAC_SIM/TRAJ_GEN_FOLLOW/data/env_3/camera_trajectory_v1/motion_vector/",
+        "segmentation_images_path": "/home/ist-sim/burak/ISAAC_SIM/TRAJ_GEN_FOLLOW/data/env_3/camera_trajectory_v1/rgb/",
+        "segmentation_mask_path": "/home/ist-sim/burak/ISAAC_SIM/TRAJ_GEN_FOLLOW/data/env_3/camera_trajectory_v1/",
+        "start_index": 7000
+    },
+    "save_dir_validation": "/home/ist-sim/burak/SEGFLOW_master_thesis/OUTPUT_SEGFLOW_master_thesis/VAL_OUTPUT/ISAAC/env_3rd_1.0_2nd_epoch/",
+    "image_size": [480, 640],
+    "tile_size": [30, 40],
+    "batch_size": 1,
+    "class_scores": {
+        "0": -1,
+        "1": -1,
+        "2": 0.5,
+        "3": 1,
+        "4": -1,
+        "5": -1
+      },
+      "num_classes": 6
+
+}

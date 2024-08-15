@@ -1,0 +1,21 @@
+current_working_directory
+│
+└───OUTPUT_SEGFLOW_master_thesis
+    │
+    └───model_saved_output_figures
+        │
+        └───test_{date}
+            │   config.txt
+            │
+            └───{data_name}_test_{number}_{now_str}
+                │
+                ├───VALIDATION_{data_name}
+                │
+                ├───TRAINING_{data_name}
+                │
+                ├───MODEL_{data_name}
+                │   │   models_{model_name}.pth
+                │
+                ├───PLOTS_{data_name}
+                │
+                └───METRICS_{data_name}

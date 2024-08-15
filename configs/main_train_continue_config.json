@@ -1,0 +1,44 @@
+{
+    "project": "ISAAC ENV Combined test_1.0 random",
+    "entity": "burakaietc",
+    "train_data": {
+        "mask_flow_path": "small/val/motion_vector",
+        "segmentation_images_path": "small/val/rgb",
+        "segmentation_mask_path": "small/val/segmentation_mask_cls_converted",
+        "start_index": 38982
+    },
+    "val_data": {
+        "mask_flow_path": "small/val/motion_vector",
+        "segmentation_images_path": "small/val/rgb",
+        "segmentation_mask_path": "small/val/segmentation_mask_cls_converted",
+        "start_index": 38982
+    },
+    "checkpoint_path": "/home/ist-sim/burak/SEGFLOW_master_thesis/OUTPUT_SEGFLOW_master_thesis/model_saved_output_figures/test_21.05/ISAAC_test_1.0_of_20240521_2132/TRAINING_ISAAC_first_test_Adam_0.0001_epoch_200_weight_decay0.01/model_best_at_0_epoch.pth",
+
+    "optimizer": {
+        "lr": 1e-4,
+        "weight_decay": 0.01,
+        "betas": [0.9, 0.999]
+    },
+    "scheduler": {
+        "milestones": [100, 200],  // Adjusted to reflect continued training
+        "gamma": 0.5
+    },
+    "num_epochs": 300,  // Adjusted for continued training
+    "date": "24.06",
+    "training_number": 1.0,
+    "data_name": "ISAAC_COMBINED",
+    "dataloader": {
+        "batch_size": 1,
+        "shuffle": true
+    },
+    "num_classes": 6,
+    "class_mapping_combined": {
+        "0": [25, 255, 82],
+        "1": [255, 165, 0],
+        "2": [169, 169, 169],
+        "3": [139, 69, 19],
+        "4": [255, 0, 0],
+        "5": [0, 0, 255]
+    }
+}

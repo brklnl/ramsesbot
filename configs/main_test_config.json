@@ -1,0 +1,20 @@
+{
+  "project_name": "training 24.06 HPC",
+  "entity_name": "burakaietc",
+  "model_path": "E:/EVERYTHING/THESIS/PTH/training_10.07/model_at_10_epoch.pth",
+  "data_path": "E:/PYTHON/Python_Codes_ws/segmentation/dataset/DronePhotogrammetry_SmallArea/DronePhotogrammetry_SmallArea/images",
+  "save_dir_validation": "E:/EVERYTHING/THESIS/OUTPUT_SEGFLOW_master_thesis/TEST/Seg_OF_Output/training_10.07_11th_epoch",
+  "batch_size": 1,
+  "shuffle": false,
+  "num_workers": 0,
+  "device": "auto",
+  "num_classes": 6,
+  "class_mapping": {
+    "0": [25, 255, 82],
+    "1": [255, 165, 0],
+    "2": [169, 169, 169],
+    "3": [139, 69, 19],
+    "4": [255, 0, 0],
+    "5": [0, 0, 255]
+  }
+}
